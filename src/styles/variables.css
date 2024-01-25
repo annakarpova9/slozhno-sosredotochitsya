@@ -1,0 +1,9 @@
+:root {
+  --bg-color: #000028;
+  --text-color: #f1b2ce;
+  --accent-color: #ff0070;
+  --accent-color-opacity: #ff007040;
+  --title-color: #db00ff;
+
+  --bg-image: url(../images/cover-image.png);
+}

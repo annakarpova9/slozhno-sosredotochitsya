@@ -8,8 +8,13 @@
 
 body {
   min-inline-size: 375px;
-  max-inline-size: 1440px;
+  max-inline-size: 1024px;
   margin: 0 auto;
+  padding: 0;
+  font-family: 'IBM Plex mono', monospace;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 130%;
 }
 
 h1,
@@ -20,6 +25,8 @@ h5,
 h6,
 p {
   margin: 0;
+  padding: 0;
+  font-size: inherit;
 }
 
 ul {
@@ -39,4 +46,5 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  text-decoration: none;
 }
