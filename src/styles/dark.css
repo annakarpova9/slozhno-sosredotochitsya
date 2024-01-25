@@ -2,10 +2,15 @@
   --bg-color: #000028;
   --text-color: #f1b2ce;
   --accent-color: #ff0070;
-  --accent-color-opacity: #ff007040;
+  --button-color: #ff0070;
+  --button-color-opacity: #ff007040;
   --title-color: #db00ff;
 
   --bg-image: url(../images/cover-image-dark.png);
+}
+
+.page.theme_dark .header__decor-rec {
+  visibility: visible;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,9 +19,14 @@
     --bg-color: #000028;
     --text-color: #f1b2ce;
     --accent-color: #ff0070;
-    --accent-color-opacity: #ff007040;
+    --button-color: #ff0070;
+    --button-color-opacity: #ff007040;
     --title-color: #db00ff;
 
     --bg-image: url(../images/cover-image-dark.png);
+  }
+
+  .header__decor-rec {
+    visibility: visible;
   }
 }

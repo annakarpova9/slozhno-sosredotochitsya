@@ -43,7 +43,7 @@ picture {
 button,
 a {
   color: currentColor;
-  font-family: inherit;
+  font-family: inherit, monospace;
   font-size: inherit;
   line-height: inherit;
   text-decoration: none;

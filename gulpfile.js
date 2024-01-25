@@ -13,7 +13,7 @@ const imagemin = require('gulp-imagemin');
 function serve() {
   browserSync.init({
     server: {
-      baseDir: './dist',
+      baseDir: './src',
     },
   });
 }
@@ -89,7 +89,7 @@ function watchFiles() {
 }
 
 const build = gulp.series(clean, gulp.parallel(html, css, images, fonts));
-const watchapp = gulp.parallel(build, watchFiles, serve);
+const watchapp = gulp.parallel(watchFiles, serve);
 
 exports.html = html;
 exports.css = css;

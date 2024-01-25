@@ -6,11 +6,11 @@
   gap: 40px;
   background-color: var(--bg-color, #000028);
   background-image: var(--bg-image, url(../images/cover-image.png));
-  background-repeat: no-repeat;
-  background-position: center;
+  background-position: center bottom;
   background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: fixed;
-  overflow-x: hidden;
+  overflow: auto;
 }
 
 /* header */
@@ -51,7 +51,7 @@
   inset-inline-end: clamp(18px, 2.8vw + 0.418rem, 29px);
   inset-block-start: clamp(10px, 2.8vw + 0.016rem, 20px);
   z-index: -1;
-  visibility: visible;
+  visibility: hidden;
 }
 
 .header__decor-rec::before {
@@ -96,17 +96,17 @@
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid var(----accent-color-opacity, #ff007040);
+  border: 1px solid var(--button-color-opacity, #ff007040);
 }
 
 .header__theme-menu-button:focus-visible {
   outline: none;
   border: none;
-  border-block-end: 1px solid var(--accent-color, #ff0070);
+  border-block-end: 1px solid var(--button-color, #ff0070);
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--accent-color, #ff0070);
+  border: 1px solid var(--button-color, #ff0070);
   pointer-events: none;
 }
 
