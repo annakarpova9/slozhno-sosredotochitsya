@@ -13,6 +13,18 @@
   visibility: visible;
 }
 
+.page.theme_dark .content__title,
+.page.theme_dark .header__theme-menu-item,
+.page.theme_dark .decorated-zone::before,
+.page.theme_dark .decorated-zone::after {
+  color: var(--accent-color, #ff0070);
+}
+
+.page.theme_dark .content__heading-style,
+.page.theme_dark .content__heading-text__style {
+  color: var(--bg-color, #000028);
+}
+
 @media (prefers-color-scheme: dark) {
 
   :root {

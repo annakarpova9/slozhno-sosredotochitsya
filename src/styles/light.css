@@ -69,8 +69,10 @@
     color: var(--text-color, #353430);
   }
 
-  .decorated-zone::before,
-  .decorated-zone::after {
+  .page.theme_light .decorated-zone::before,
+  .page.theme_light .decorated-zone::after,
+  .page.theme_auto .decorated-zone::before,
+  .page.theme_auto .decorated-zone::after {
     border-color: var(--text-color, #353430);
   }
 }
