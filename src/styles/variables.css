@@ -1,10 +1,15 @@
 :root {
-  --bg-color: #000028;
-  --text-color: #f1b2ce;
-  --accent-color: #ff0070;
-  --button-color: #ff0070;
-  --button-color-opacity: #ff007040;
-  --title-color: #db00ff;
 
-  --bg-image: url(../images/cover-image.png);
+  --bg-color: #000028;
+  --accent-color: #ff0070;
+  --button-decor-color: #FF0070;
+  --button-color-opacity: #FF007040;
+  --main-title-color: #DB00FF;
+  --main-title-shadow: #ff0070;
+  --main-title-accent-shadow: #ff0070;
+  --content-title-color: #FF0070;
+  --article-title-color: #000028;
+  --text-color: #F1B2CE;
+
+  --bg-image: url(../images/cover-image-dark.png);
 }
